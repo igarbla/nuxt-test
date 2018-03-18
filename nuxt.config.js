@@ -36,5 +36,9 @@ module.exports = {
         })
       }
     }
+  },
+  modules: ["nuxt-netlify-cms"],
+  netlifyCms: {
+    adminPath: "secure"
   }
 }
